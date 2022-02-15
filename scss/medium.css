@@ -1,0 +1,74 @@
+/* HEADER SECTION */
+.home-container {
+  height: 95vh;
+}
+
+.home-text {
+  margin-left: 5rem;
+}
+.home-text__title {
+  font-size: 9rem;
+}
+
+.home-img__baloon-1 {
+  margin: 12rem 55%;
+}
+.home-img__baloon-2 {
+  margin: 17rem 80%;
+}
+
+.home-img__down-landscape {
+  margin-bottom: -95vh;
+}
+
+/* ABOUT US SECTION */
+.about-text {
+  margin-left: 5rem;
+}
+.about-text__title {
+  font-size: 4rem;
+}
+.about-text__subtitle {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+/* ABOUT US SECTION - BOX */
+.about-box__item {
+  max-width: 60%;
+}
+.about-box__item:hover .about-box__item-bg {
+  top: 10rem;
+}
+.about-box__img {
+  max-width: 75%;
+}
+.about-box__text-title {
+  font-size: 3rem;
+}
+
+.fas {
+  font-size: 4rem;
+}
+
+/* LAST MINUTE SECTION */
+.last-text__rotate {
+  margin-left: 5rem;
+}
+
+.last-text__title {
+  font-size: 4rem;
+}
+
+/* LAST MINUTE SECTION - PICTURES */
+.last-wrapper__head {
+  margin-top: -6vw;
+  line-height: 5rem;
+}
+
+/* CONTACT */
+.contact-wrapper {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}/*# sourceMappingURL=medium.css.map */

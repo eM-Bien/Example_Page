@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example page</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" media='screen and (min-width: 500px)' href="./scss/small.css">
+    <link rel="stylesheet" media='screen and (min-width: 768px)' href="./scss/medium.css">
+    <link rel="stylesheet" media='screen and (min-width: 992px)' href="./scss/large.css">
+    <link rel="stylesheet" media='screen and (min-width: 1600px)' href="./scss/x-large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23b727f5a2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="general-container">
+        <nav class="nav-wrapper nav-wrapper__unwrap--close">
+            <img class="nav-logo" src="./img/logo.svg" alt="logo firmy">
+            <div class="nav-mobile">
+                <div class="nav-mobile__line"></div>
+                <div class="nav-mobile__line"></div>
+                <div class="nav-mobile__line"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li class="nav-links__item-bg"><a class="nav-links__item" href="#home">Home</a></li>
+                <li class="nav-links__item-bg"><a class="nav-links__item" href="#about">O nas</a></li>
+                <li class="nav-links__item-bg"><a class="nav-links__item" href="#lastminute">Last Minute</a></li>
+                <li class="nav-links__item-bg"><a class="nav-links__item" href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <header id="home" class="home-container">
+            <div class="text-white-general home-text text-bounce">
+                <h1 class="home-text__title">advendure</h1>
+                <p class="home-text__subtitle">Zaplanuj z nami niesamowitą przygodę</p>
+                <a href="#about"><button class="btn-general btn-general--text btn-general__bg">przejdź
+                        dalej</button></a>
+            </div>
+
+            <img src="./img/baloon.png" alt="grafika z balonem podróżnym" class="home-img__baloon home-img__baloon-1">
+            <img src="./img/baloon-2.png" alt="grafika z balonem podróżnym" class="home-img__baloon home-img__baloon-2">
+            <img src="./img/bg-bottom.png" alt="grafika z krajobrazem" class="home-img__down-landscape">
+        </header>
+
+        <section id="about" class="about-container">
+            <div class="text-white-general about-text">
+                <h2 class="about-text__title">Lorem ipsum dolor sit amet</h2>
+                <p class="about-text__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate
+                    metus vel nunc sagittis lacinia.</p>
+            </div>
+
+            <div class="about-box">
+                <div class="about-box__item">
+                    <div class="about-box__carousel">
+                        <picture
+                            class="about-box__carousel-item about-box__carousel-item--1 about-box__carousel-item--visible">
+                            <source media="(min-width: 768px)" srcset="./img/offer-1-big.jpg">
+                            <img src="./img/offer-1.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--1">
+                            <source media="(min-width: 768px)" srcset="./img/offer-1-2-big.jpg">
+                            <img src="./img/offer-1-2.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--1">
+                            <source media="(min-width: 768px)" srcset="./img/offer-1-3-big.jpg">
+                            <img src="./img/offer-1-3.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+                    </div>
+
+                    <div class="text-white-general about-box__text">
+                        <h3 class="about-box__text-title">Lorem ipsum dolor</h3>
+                        <p class="about-box__text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                            vulputate metus vel nunc sagittis lacinia. Aenean tincidunt augue risus, a sagittis lacus
+                            finibus sit amet.</p>
+                    </div>
+                    <div class="about-box__icons">
+                        <i class="fas fa-arrow-circle-left fa-arrow-circle-left--1"></i>
+                        <i class="fas fa-arrow-circle-right fa-arrow-circle-right--1"></i>
+                    </div>
+                    <div class="about-box__item-bg"></div>
+                </div>
+
+                <div class="about-box__item">
+                    <div class="about-box__carousel">
+                        <picture
+                            class="about-box__carousel-item about-box__carousel-item--2 about-box__carousel-item--visible">
+                            <source media="(min-width: 768px)" srcset="./img/offer-2-big.jpg">
+                            <img src="./img/offer-2.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--2">
+                            <source media="(min-width: 768px)" srcset="./img/offer-2-2-big.jpg">
+                            <img src="./img/offer-2-2.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--2">
+                            <source media="(min-width: 768px)" srcset="./img/offer-2-3-big.jpg">
+                            <img src="./img/offer-2-3.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+                    </div>
+
+                    <div class="text-white-general about-box__text">
+                        <h3 class="about-box__text-title">Lorem ipsum dolor</h3>
+                        <p class="about-box__text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                            vulputate metus vel nunc sagittis lacinia. Aenean tincidunt augue risus, a sagittis lacus
+                            finibus sit amet.</p>
+                    </div>
+                    <div class="about-box__icons">
+                        <i class="fas fa-arrow-circle-left fa-arrow-circle-left--2"></i>
+                        <i class="fas fa-arrow-circle-right fa-arrow-circle-right--2"></i>
+                    </div>
+                    <div class="about-box__item-bg"></div>
+                </div>
+
+                <div class="about-box__item">
+                    <div class="about-box__carousel">
+                        <picture class="about-box__carousel-item about-box__carousel-item--3 about-box__carousel-item--visible">
+                            <source media="(min-width: 768px)" srcset="./img/offer-3-big.jpg">
+                            <img src="./img/offer-3.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--3">
+                            <source media="(min-width: 768px)" srcset="./img/offer-3-2-big.jpg">
+                            <img src="./img/offer-3-2.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+
+                        <picture class="about-box__carousel-item about-box__carousel-item--3">
+                            <source media="(min-width: 768px)" srcset="./img/offer-3-3-big.jpg">
+                            <img src="./img/offer-3-3.jpg" alt="zdjęcie krajobrazu" class="about-box__img">
+                        </picture>
+                    </div>
+
+                    <div class="text-white-general about-box__text">
+                        <h3 class="about-box__text-title">Lorem ipsum dolor</h3>
+                        <p class="about-box__text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                            vulputate metus vel nunc sagittis lacinia. Aenean tincidunt augue risus, a sagittis lacus
+                            finibus sit amet.</p>
+                    </div>
+                    <div class="about-box__icons">
+                        <i class="fas fa-arrow-circle-left fa-arrow-circle-left--3"></i>
+                        <i class="fas fa-arrow-circle-right fa-arrow-circle-right--3"></i>
+                    </div>
+                    <div class="about-box__item-bg"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="lastminute" class="last-container">
+            <img src="./img/some-text.svg" alt="obracający się tekst" class="last-circle-text">
+
+            <div class="text-white-general last-text__rotate">
+                <h2 class="last-text__title">Our offers are:
+                    <span class="last-text__subtitle last-text__subtitle--animation">perfectly match</span>
+                    <span class="last-text__subtitle">not expensive</span>
+                    <span class="last-text__subtitle">surprising</span>
+                </h2>
+                <p class="last-text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper. Ut elementum libero ut lobortis egestas. Mauris placerat vel sapien ac elementum. In ultricies augue in lorem mattis dapibus. Integer elementum convallis mi euismod bibendum. Sed ut tincidunt ligula, vehicula tempor ligula. In eu condimentum orci. Cras vel justo dignissim, sollicitudin risus et, varius lacus. Maecenas porttitor nulla pretium tempor placerat. Pellentesque mollis nibh id mi dignissim sagittis.</p>
+            </div>
+
+            <div class="last-wrapper">
+                <div class="last-wrapper__item">
+                    <div class="last-wrapper__content last-wrapper__content--img1">
+                        <h1 class="last-wrapper__head">perfectly match<br><span class="last-wrapper__subtitle">Lorem ipsum</span></h1>
+                        <p class="last-wrapper__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper.</p>
+                    </div>
+                </div>
+    
+                <div class="last-wrapper__item">
+                    <div class="last-wrapper__content last-wrapper__content--img2">
+                        <h1 class="last-wrapper__head">not expensive<br><span class="last-wrapper__subtitle">Lorem ipsum</span></h1>
+                        <p class="last-wrapper__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis.</p>
+                    </div>
+                </div>
+    
+                <div class="last-wrapper__item">
+                    <div class="last-wrapper__content last-wrapper__content--img3">
+                        <h1 class="last-wrapper__head">surprising<br><span class="last-wrapper__subtitle">Lorem ipsum</span></h1>
+                        <p class="last-wrapper__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem porta, scelerisque risus eget, pellentesque sem. Fusce nec nibh euismod, mollis diam et, varius felis. Nunc molestie ultrices ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-container">
+            <div class="contact-wrapper">
+                <a href="./img/cv m.bienkowska 2021.pdf" class="contact-wrapper__link"><button class="contact-wrapper__item contact-wrapper__item--me">magda bieńkowska</button></a>
+                <a href="mailto:m.lena.bienkowska@gmail.com" class="contact-wrapper__link"><button class="contact-wrapper__item contact-wrapper__item--mail">@: m.lena.bienkowska@gmail.com</button></a>
+                <a href="callto:+48505371950" class="contact-wrapper__link"><button class="contact-wrapper__item contact-wrapper__item--phone">tel: 505 371 950</button></a>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="./js/throttle.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/text-bounce.js"></script>
+    <script src="./js/about-carousel.js"></script>
+    <script src="./js/rotating-text.js"></script>
+</body>
+
+</html>

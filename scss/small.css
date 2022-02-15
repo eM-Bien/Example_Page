@@ -1,0 +1,22 @@
+/* BUTTON GENERAL */
+.btn-general {
+  width: 20rem;
+  height: 6rem;
+  font-size: 2rem;
+}
+
+/* HEADER SECTION */
+.home-text {
+  margin: 26rem 4rem;
+}
+.home-text__title {
+  font-size: 6rem;
+}
+.home-text__subtitle {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.home-img__down-landscape {
+  width: 160vw;
+}/*# sourceMappingURL=small.css.map */
